@@ -63,7 +63,7 @@ global:
     excludeIP: 10.100.50.246
   n6network:
     name: n6network
-    masterIf: eth1
+    masterIf: eth0
     subnetIP: 10.100.200.0
     cidr: 24
     gatewayIP: 10.100.200.1
@@ -88,7 +88,7 @@ deployPCF: true
 deploySMF: true
 deployUDM: true
 deployUDR: true
-deployUPF: true
+deployUPF: false
 deployWEBUI: true
 
 # Disable the deployment of mongodb as an NRF subchart
