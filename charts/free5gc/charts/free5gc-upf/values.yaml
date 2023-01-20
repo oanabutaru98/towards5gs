@@ -37,10 +37,10 @@ global:
   n6network:
     name: n6network
     masterIf: eth1
-    subnetIP: 10.100.100.0
+    subnetIP: 10.100.200.0
     cidr: 24
-    gatewayIP: 10.100.100.1
-    excludeIP: 10.100.100.254
+    gatewayIP: 10.100.200.1
+    excludeIP: 10.100.200.254
   n9network:
     name: n9network
     masterIf: eth0
@@ -67,7 +67,7 @@ upf:
   n4if:  # PFCP
     ipAddress: 10.100.50.241
   n6if:  # DN
-    ipAddress: 10.100.100.12
+    ipAddress: 10.100.200.12
 
   podAnnotations: {}
     # additional annotations
@@ -131,7 +131,7 @@ upf1:
   n4if:  # PFCP
     ipAddress: 10.100.50.242
   n6if:  # DN
-    ipAddress: 10.100.100.13
+    ipAddress: 10.100.200.13
 
   podAnnotations: {}
     # additional annotations
@@ -194,7 +194,7 @@ upf2:
   n4if:  # PFCP
     ipAddress: 10.100.50.243
   n6if:  # DN
-    ipAddress: 10.100.100.14
+    ipAddress: 10.100.200.14
 
   podAnnotations: {}
     # additional annotations
@@ -259,7 +259,7 @@ upfb:
   n4if:  # PFCP
     ipAddress: 10.100.50.241
   n6if:  # DN
-    ipAddress: 10.100.100.12
+    ipAddress: 10.100.200.12
 
   podAnnotations: {}
     # additional annotations
