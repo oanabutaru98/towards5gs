@@ -18,7 +18,7 @@ metadata:
   labels:
     app: {{ $.Values.global.projectName }}
 data:
-  amfcfg.yaml: |
+  amfcfg.yaml:
     info:
       version: 1.0.3
       description: AMF initial local configuration
@@ -29,7 +29,7 @@ data:
 
       ngapIpList:
 {{- if $.Values.global.amf.service.ngap.enabled }}
-        - 0.0.0.0
+        - 130.149.223.197
 {{- else }}
         - {{ $.Values.global.amf.n2if.ipAddress }}
 {{- end }}
