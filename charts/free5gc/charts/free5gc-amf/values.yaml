@@ -38,7 +38,7 @@ global:
         nodeport: 31412
         protocol: SCTP
         type: NodePort
-        ipList: 130.149.223.197
+        ipList: 192.168.49.2
   n2network:
     name: n2network
     masterIf: eth0
