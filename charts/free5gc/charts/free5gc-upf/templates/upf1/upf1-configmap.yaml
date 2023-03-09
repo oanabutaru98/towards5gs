@@ -18,7 +18,7 @@ metadata:
   name: {{ .configmap.name }}
   labels:
     app: {{ $.Values.global.projectName }}
-data: 
+data:
   upfcfg.yaml: |
     version: 1.0.3
     description: UPF initial local configuration
