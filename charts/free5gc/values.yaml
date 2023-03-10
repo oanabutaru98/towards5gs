@@ -64,10 +64,10 @@ global:
   n6network:
     name: n6network
     masterIf: eth0
-    subnetIP: 10.100.100.0
+    subnetIP: 10.100.200.0
     cidr: 24
-    gatewayIP: 10.100.100.1
-    excludeIP: 10.100.100.254
+    gatewayIP: 10.100.200.1
+    excludeIP: 10.100.200.254
   n9network:
     name: n9network
     masterIf: eth0
